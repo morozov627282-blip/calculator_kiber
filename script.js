@@ -17,33 +17,33 @@ const zero = current.querySelector('0');
 
 
 
-one.addEventListener('click', function one(){
+one.addEventListener('click', function ones(){
     current=+1;
 });
-two.addEventListener('click', function one(){
+two.addEventListener('click', function twos(){
     current=+1;
 });
-three.addEventListener('click', function one(){
+three.addEventListener('click', function threes(){
     current=+1;
 });
-four.addEventListener('click', function one(){
+four.addEventListener('click', function fours(){
     current=+1;
 });
-five.addEventListener('click', function one(){
+five.addEventListener('click', function fives(){
     current=+1;
 });
-six.addEventListener('click', function one(){
+six.addEventListener('click', function sixs(){
     current=+1;
 });
-seven.addEventListener('click', function one(){
+seven.addEventListener('click', function sevens(){
     current=+1;
 });
-eight.addEventListener('click', function one(){
+eight.addEventListener('click', function eights(){
     current=+1;
 });
-nine.addEventListener('click', function one(){
+nine.addEventListener('click', function nines(){
     current=+1;
 });
-zero.addEventListener('click', function one(){
+zero.addEventListener('click', function zeros(){
     current=+1;
 });
