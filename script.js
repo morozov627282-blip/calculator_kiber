@@ -18,32 +18,35 @@ const zero = current.querySelector('0');
 
 
 one.addEventListener('click', function ones(){
-    current=+1;
+    current.textContent = current.textContent*10 + 1;
+    
 });
 two.addEventListener('click', function twos(){
-    current=+2;
+    current.textContent = current.textContent*10 + 2;
 });
 three.addEventListener('click', function threes(){
-    current=+3;
+    current.textContent = current.textContent*10 + 3;
 });
 four.addEventListener('click', function fours(){
-    current=+4;
+    current.textContent = current.textContent*10 + 4;
 });
 five.addEventListener('click', function fives(){
-    current=+5;
+    current.textContent = current.textContent*10 + 5;
 });
 six.addEventListener('click', function sixs(){
-    current=+6;
+    current.textContent = current.textContent*10 + 6;
 });
 seven.addEventListener('click', function sevens(){
-    current=+7;
+    current.textContent = current.textContent*10 + 7;
 });
 eight.addEventListener('click', function eights(){
-    current=+8;
+    current.textContent = current.textContent*10 + 8;
 });
 nine.addEventListener('click', function nines(){
-    current=+9;
+    current.textContent = current.textContent*10 + 9;
 });
 zero.addEventListener('click', function zeros(){
-    current=+10;
+    current.textContent = current.textContent*10 + 0;
 });
+
+
