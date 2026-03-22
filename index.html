@@ -8,29 +8,40 @@
 <body>
     <div class="calculate">
         <div class="current">0</div>
-        <div class="controls">
-            <div id="ac">ac</div>
-            <div id="⌫">⌫</div>
-            <div id="%">%</div>
-            <div id="/">/</div>
-            <div id="7">7</div>
-            <div id="8">8</div>
-            <div id="9">9</div>
-            <div id="x">x</div>
-            <div id="4">4</div>
-            <div id="5">5</div>
-            <div id="6">6</div>
-            <div id="-">-</div>
-            <div id="1">1</div>
-            <div id="2">2</div>
-            <div id="3">3</div>
-            <div id="+">+</div>
-            <div id="~">~</div>
-            <div id="0">0</div>
-            <div id=".">.</div>
-            <div id="=">=</div>
-            <div id="x²">x²</div>
-            <div id="√x">√x</div>
+        <div class="controls" id="controls">
+            <button class="danger" data-action="clear">AC</button>
+            <button class="danger" data-action="delete">⌫</button>
+            <button class="operator" data-value="%">%</button>
+            <button class="operator" data-value="/">÷</button>
+
+            <button data-value="7">7</button>
+            <button data-value="8">8</button>
+            <button data-value="9">9</button>
+            <button class="operator" data-value="*">×</button>
+
+            <button data-value="4">4</button>
+            <button data-value="5">5</button>
+            <button data-value="6">6</button>
+            <button class="operator" data-value="-">−</button>
+
+            <button data-value="1">1</button>
+            <button data-value="2">2</button>
+            <button data-value="3">3</button>
+            <button class="operator" data-value="+">+</button>
+
+            <button data-action="sign">±</button>
+            <button data-value="0">0</button>
+            <button data-value=".">.</button>
+            <button class="equal" data-action="calculate">=</button>
+
+            <button class="wide" data-action="square">x²</button>
+            <button class="wide" data-action="sqrt">√x</button>
+        </div>
+
+        <div class="tips">
+            <div class="tip">Enter = посчитать</div>
+            <div class="tip">Backspace = удалить</div>
+            <div class="tip">Shift+C = полный сброс</div>
         </div>
     </div>
     <script src="script.js"></script>
