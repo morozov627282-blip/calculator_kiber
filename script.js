@@ -25,9 +25,11 @@ const equal = controls.querySelector('=');
 const radix = controls.querySelector('√x');
 const degree = controls.querySelector('x²')
 //при нажатии на цифры
+plus.addEventListener('click', function ones(){
+
+});
 one.addEventListener('click', function ones(){
-    if ope
-    
+
 });
 two.addEventListener('click', function twos(){
 
