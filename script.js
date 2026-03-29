@@ -3,7 +3,7 @@ const current = document.getElementById('current');
 const controls = document.getElementById('controls');
 
 //циферки
-const one = current.querySelector('1');
+const one = controls.querySelector('button[data-value="1"]');
 const two = current.querySelector('2');
 const three = current.querySelector('3');
 const four = current.querySelector('4');
@@ -27,7 +27,7 @@ const degree = current.querySelector('x²')
 //при нажатии на цифры
 one.addEventListener('click', function ones(){
     current.textContent = current.textContent*10 + 1;
-    
+
 });
 two.addEventListener('click', function twos(){
     current.textContent = current.textContent*10 + 2;
