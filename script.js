@@ -3,29 +3,119 @@ const current = document.getElementById('current');
 const controls = document.getElementById('controls');
 
 //циферки
-const one = current.querySelector('1');
-const two = current.querySelector('2');
-const three = current.querySelector('3');
-const four = current.querySelector('4');
-const five = current.querySelector('5');
-const six = current.querySelector('6');
-const seven = current.querySelector('7');
-const eight = current.querySelector('8');
-const nine = current.querySelector('9');
-const zero = current.querySelector('0');
+const one = current.querySelector('button[data-value="1"]');
+const two = current.querySelector('button[data-value="2"]');
+const three = current.querySelector('button[data-value="3"]');
+const four = current.querySelector('button[data-value="4"]');
+const five = current.querySelector('button[data-value="5"]');
+const six = current.querySelector('button[data-value="6"]');
+const seven = current.querySelector('button[data-value="7"]');
+const eight = current.querySelector('button[data-value="8"]');
+const nine = current.querySelector('button[data-value="9"]');
+const zero = current.querySelector('button[data-value="0"]');
 //кнопочки
-const AC = current.querySelector('AC');
-const backsp = current.querySelector('backsp');
-const percent = current.querySelector('%');
-const del = current.querySelector('/');
-const multiply = current.querySelector('*');
-const minus = current.querySelector('-');
-const plus = current.querySelector('+');
-const equal = current.querySelector('=');
-const radix = current.querySelector('√x');
-const degree = current.querySelector('x²')
+const AC = current.querySelector('button[data-value="AC"]');
+const backsp = current.querySelector('button[data-value="backsp"]');
+const percent = current.querySelector('button[data-value="%"]');
+const del = current.querySelector('button[data-value="/"]');
+const multiply = current.querySelector('button[data-value="*"]');
+const minus = current.querySelector('button[data-value="-"]');'x²
+const plus = current.querySelector('button[data-value="+"]');
+const equal = current.querySelector('button[data-value="="]');
+const radix = current.querySelector('button[data-value="√x"]');
+const degree = current.querySelector('button[data-value="x²"')
 //при нажатии на цифры
-one.addEventListener('click', function ones(){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*one.addEventListener('click', function ones(){
     current.textContent = current.textContent*10 + 1;
     
 });
@@ -55,7 +145,4 @@ nine.addEventListener('click', function nines(){
 });
 zero.addEventListener('click', function zeros(){
     current.textContent = current.textContent*10 + 0;
-});
-
-
-
+});*\
